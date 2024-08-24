@@ -1,6 +1,6 @@
 # FYIMP-PROJECTS
 ## C Projects : 
-- [String Palindrome](/StringPalindrome.c)
+- [String Palindrome]("/C Programming/StringPalindrome.c")
 - [Number Palindrome](/NumberPalindrome.c)
 - [Encrypting and Decrypting](/Crypt.c)
 - [Compressiong String](/Compressing.c)
