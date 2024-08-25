@@ -26,13 +26,13 @@ void decrypt(char *msg, int pass) {
 int main() {
 	int choice, pass;
 	char msg[100];
-	printf("enter you choice : ");
+	printf("Enter your choice : \n");
 	printf(" 1. ENCRYPT \n 2. DECRYPT \n");
 	printf("Enter your choice : ");
 	scanf("%d", &choice);
 	switch (choice) {
 	case 1:
-		printf("Enter the message to Encrypt : ");
+		printf("\nEnter the message to Encrypt : ");
 		scanf("%s", msg);
 		printf("Enter your password (integer): ");
 		scanf("%d", &pass);
