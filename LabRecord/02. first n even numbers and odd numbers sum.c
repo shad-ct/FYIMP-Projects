@@ -18,5 +18,5 @@ int main()
         }
     }
     printf("sum of %d odd numbers = %d \n",n,odd);
-    printf("sum of %d odd numbers = %d",n,even);
+    printf("sum of %d even numbers = %d",n,even);
 }
