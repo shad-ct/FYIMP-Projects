@@ -9,7 +9,7 @@ int main() {
 
 	struct student students[10];
 
-	for (int i = 0; i < 2; i++) {
+	for (int i = 0; i < 10; i++) {
 		printf("Name: ");
 		scanf("%s", students[i].name);
 		printf("Roll no.: ");
@@ -25,7 +25,7 @@ int main() {
 	}
 	    printf("\n--------------------------------- \n");
 
-	for (int i = 0; i < 2; i++) {
+	for (int i = 0; i < 10; i++) {
 	    printf("--------------------------------- \n");
 		printf("Name: %s\n",students[i].name);
 		printf("Roll number : %d\n",students[i].roll);
