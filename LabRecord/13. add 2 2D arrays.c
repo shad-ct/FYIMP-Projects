@@ -4,7 +4,6 @@ int main() {
 
 	int col,row,a[50][50],b[50][50],sum[100][100];
 
-	
 	printf("Column of array : \n");
 	scanf("%d",&col);	
 	
