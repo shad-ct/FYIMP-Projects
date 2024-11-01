@@ -10,8 +10,8 @@
 
  1. [sum of first n natural numbers](/LabRecord/01.sum%20of%20first%20n%20natural%20numbers.c) <br>
  2. [first n even numbers and odd numbers sum](/LabRecord/02.%20first%20n%20even%20numbers%20and%20odd%20numbers%20sum.c)<br>
- 3. [03. quadratic equation](LabRecord/03.quadratic%20equation.c)<br>
- 4. [04.string check if it has a sub string](/LabRecord/04.string%20check%20if%20it%20has%20a%20sub%20string.c)<br>
+ 3. [quadratic equation](LabRecord/03.quadratic%20equation.c)<br>
+ 4. [string check if it has a sub string](/LabRecord/04.string%20check%20if%20it%20has%20a%20sub%20string.c)<br>
  5. [find max and minimum among a set of number array ](/LabRecord/05.find%20max%20and%20minimum%20among%20a%20set%20of%20number%20array%20.c)<br>
  6. [reverse a string](/LabRecord/06.reverse%20a%20string%20.c)<br>
  7. [comparing string without the function](/LabRecord/07.comparing%20string%20without%20the%20function.c)<br>
