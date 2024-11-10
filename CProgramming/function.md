@@ -1,4 +1,4 @@
-# Function with argument, without return value:
+# 1. Function with argument, without return value:
 
       #include <stdio.h>
       
@@ -16,7 +16,7 @@
           printf("%s\n", message);
       } 
 
-# Function with argument, with return value:
+# 2. Function with argument, with return value:
 
 ``` #include <stdio.h>
 
@@ -35,7 +35,7 @@ int add(int a, int b) {
 }
 ```
 
-# Function without argument, without return value:
+# 3. Function without argument, without return value:
 
 ``` 
 #include <stdio.h>
@@ -54,7 +54,7 @@ void greet() {
 }
 ```
 
-# Function without argument, with return value:
+# 4. Function without argument, with return value:
 
 ``` 
 #include <stdio.h>
