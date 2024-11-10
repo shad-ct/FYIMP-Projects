@@ -1,6 +1,6 @@
 # Function with argument, without return value:
 
-      ```#include <stdio.h>
+      #include <stdio.h>
       
       // Function declaration
       void printMessage(char *message);
@@ -14,7 +14,7 @@
       // Function definition
       void printMessage(char *message) {
           printf("%s\n", message);
-      } ```
+      } 
 
 # Function with argument, with return value:
 
