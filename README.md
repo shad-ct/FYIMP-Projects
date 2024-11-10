@@ -4,6 +4,7 @@
 2. [Number Palindrome](/CProgramming/NumberPalindrome.c)
 3. [Encrypting and Decrypting](/CProgramming/Crypt.c)
 4. [Compressiong String](/CProgramming/Compressing.c)
+5. [Functions in C](/CProgramming/function.md)
 
 ## Lab Record :
  1. [sum of first n natural numbers](/LabRecord/01.sum%20of%20first%20n%20natural%20numbers.c) <br>
