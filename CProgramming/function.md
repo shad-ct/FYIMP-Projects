@@ -74,3 +74,52 @@ int getNumber() {
 }
 
 ```
+
+
+# 5. Call by Value : 
+
+```
+#include <stdio.h>
+
+// Function declaration
+void addTen(int x);
+
+int main() {
+    int a = 5;
+    printf("Before function call: a = %d\n", a);
+    addTen(a); // Function call by value
+    printf("After function call: a = %d\n", a);
+
+    return 0;
+}
+
+// Function definition
+void addTen(int x) {
+    x = x + 10;
+    printf("Inside function: x = %d\n", x);
+}
+```
+
+# 6. Call by Reference : 
+
+```
+#include <stdio.h>
+
+// Function declaration
+void addTen(int *x);
+
+int main() {
+    int a = 5;
+    printf("Before function call: a = %d\n", a);
+    addTen(&a); // Function call by reference
+    printf("After function call: a = %d\n", a);
+
+    return 0;
+}
+
+// Function definition
+void addTen(int *x) {
+    *x = *x + 10;
+    printf("Inside function: x = %d\n", *x);
+}
+```
