@@ -28,7 +28,7 @@ Below are the lab records for various exercises:
 10. [Search for a Number in an Array](SEM01/LabRecord/10.search%20for%20a%20number%20in%20an%20array.c) 🔍
 11. [Scalar Multiplication in a 1D Array](SEM01/LabRecord/11.scalar%20multiplication%20in%20a%201D%20array.c) 📏
 12. [Register](SEM01/LabRecord/12.register.c) 📝
-13. [Add 2 2D Arrays](SEM01/LabRecord/13.add%202%202D%20arrays.c) ➕📊
+13. [Add 2 2D Arrays](SEM01/LabRecord/13.%20add%202%202D%20arrays.c) ➕📊
 
 ---
 
