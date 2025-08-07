@@ -12,7 +12,11 @@ int main() {
             cout << "Found at : " << i+1;
             break;
         }
+    if(i==5){
+            cout << "element not found"'
+        }
     }
+
 }
 ```
 
