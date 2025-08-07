@@ -1,4 +1,23 @@
-### Binary Search : 
+### Linear Search:
+```
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int arr[4] = {1,2,2,3};
+    int find = 3;
+    for(int i =0;i<4;i++){
+        if(arr[i] == find){
+            cout << "Found at : " << i+1;
+            break;
+        }
+    }
+}
+```
+
+
+### Binary Search: 
 ```
 const arr = [1,2,3,4,5,6,7,8,9]
 
