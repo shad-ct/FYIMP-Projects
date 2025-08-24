@@ -46,3 +46,41 @@ const len = arr.length;
 
 Find(2,arr[0], len)
 ```
+
+
+while code for binary search : 
+```
+#include <stdio.h>
+
+int BinarySearch(int arr[], int target, int beg, int end) {
+    while(beg <= end){
+        int mid = beg + (end- beg)/2;
+        
+        if(arr[mid] == target){
+            return mid;
+        }
+        else if (arr[mid] < target){
+            beg = mid + 1;
+        }
+        else{
+            end = mid - 1;
+        }
+            
+    }
+    return -1;
+}
+
+int main() {
+    int a[5] = {10, 20, 30, 40, 50};
+    int target = 30;
+    int ans = BinarySearch(a, target, 0, 4);
+
+    if (ans != -1)
+        printf("Element found at index %d\n", ans+1);
+    else
+        printf("Element not found\n");
+
+    return 0;
+}
+
+```
