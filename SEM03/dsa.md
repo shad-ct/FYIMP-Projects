@@ -113,3 +113,27 @@ int main() {
     }
 }
 ```
+### Selection Sort : 
+```
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    
+    int arr[6] = {23,123,432,44,234,45};
+    int limit = 6, i, j , temp;
+    for(i = 0; i < limit ; i++){
+        for(j = i + 1; j < limit ;j ++){
+            if(arr[i]  arr[j] ){
+                temp = arr[i];
+                arr[i]  = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    
+    for(i=0;i<limit;i++){
+        printf("%d\t",arr[i]);
+    }
+}
+```
