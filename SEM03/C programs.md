@@ -15,3 +15,24 @@ int main() {
     printf("%d",a);   
 }
 ```
+
+# Insert at a given position : 
+```
+#include <stdio.h>
+
+int main() {
+    int a[10] = {1,2,3,4,5};
+    
+    int i, value = 69, pos= 3;
+    // 1,2,3,69,4,5
+    for(i=5;i> pos;i--){
+        a[i] = a[i-1];
+    }
+    
+    a[pos] = value;
+    
+    for(i=0;i<6;i++){
+        printf("%d \t",a[i]);
+    }
+}
+```
